@@ -16,35 +16,35 @@ def run_covid_test():
 		if random_ques == ques1:
 			print(ques1)
 			ans = options()
-			score += 2.5 if ans == 2 else None
+			score += 2.5 if ans == 2 else 0
 		elif random_ques == ques2:
 			print(ques2)
 			ans = options()
-			score += 2.5 if ans == 2 else None
+			score += 2.5 if ans == 2 else 0
 		elif random_ques == ques3:
 			print(ques3)
 			ans = options()
-			score += 2.5 if ans == 2 else None
+			score += 2.5 if ans == 2 else 0
 		elif random_ques == ques4:
 			print(ques4)
 			ans = options()
-			score += 2.5 if ans == 2 else None
+			score += 2.5 if ans == 2 else 0
 		elif random_ques == ques5:
 			print(ques5)
 			ans = options()
-			score += 2.5 if ans == 1 else None
+			score += 2.5 if ans == 1 else 0
 		elif random_ques == ques6:
 			print(ques6)
 			ans = options()
-			score += 2.5 if ans == 2 else None
+			score += 2.5 if ans == 2 else 0
 		elif random_ques == ques7:
 			print(ques7)
 			ans = options()
-			score += 2.5 if ans == 1 else None
+			score += 2.5 if ans == 1 else 0
 		elif random_ques == ques8:
 			print(ques8)
 			ans = options()
-			score += 2.5 if ans == 2 else None
+			score += 2.5 if ans == 2 else 0
 
 	return score
 
